@@ -51,8 +51,8 @@ Movie 14: One Piece: Stampede (101m)
 ### 2. Train
 
 - Real image 의 content 를 유지하기 위해서 Generator를 pretrained 함
-- 1) Discriminator cartoon image에 대하여 1, generate image 0, cartoon edge smooth 0, 나오게 train 시킴
-  2) Generator generator image 를 Discriminator 에 나온 결과가 1이 되도록 + real image 의 content 를 유지하도록 train 시킴
+- Discriminator cartoon image에 대하여 1, generate image 0, cartoon edge smooth 0, 나오게 train 시킴
+- Generator generator image 를 Discriminator 에 나온 결과가 1이 되도록 + real image 의 content 를 유지하도록 train 시킴
 
 ## Results
 ![image](https://github.com/youngseoh/real2onepieceGAN/assets/100707876/73b73a28-7f25-47a1-b067-78aace12cb1d)
